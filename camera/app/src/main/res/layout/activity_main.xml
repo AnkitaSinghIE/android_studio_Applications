@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="my camera app" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="148dp"
+        android:text="Capture"/>
+    <ImageView
+        android:id="@+id/iview"
+        android:layout_width="388dp"
+        android:layout_height="388dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+</LinearLayout>
